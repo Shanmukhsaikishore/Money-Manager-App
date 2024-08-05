@@ -1,0 +1,145 @@
+.bg-container {
+  height: 100%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  padding: 40px 0px 60px 60px;
+  width: 95%;
+  border-radius: 10px;
+  font-family: 'Roboto';
+  margin-bottom: 20px;
+}
+.main-heading {
+  font-size: 27px;
+  color: #475569;
+}
+.para {
+  font-size: 17px;
+  color: #475569;
+  font-weight: 400;
+}
+.span-ele {
+  color: #0b69ff;
+  font-weight: 500;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  padding: 40px;
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  height: 450px;
+  font-family: 'Roboto';
+}
+
+.bottom-container {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+}
+.form-heading {
+  font-size: 24px;
+  color: #475569;
+}
+.title {
+  color: #7e858e;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.input-ele {
+  font-size: 14px;
+  padding: 10px;
+  margin-bottom: 15px;
+  outline: none;
+  border: 1px solid #cbd5e1;
+  border-radius: 5px;
+}
+.submit-button {
+  height: 40px;
+  width: 80px;
+  font-size: 15px;
+  border-radius: 5px;
+  background-color: #0b69ff;
+  color: #ffffff;
+  font-weight: 500;
+  border-width: 0px;
+  outline: none;
+  cursor: pointer;
+}
+.history-container {
+  height: 450px;
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  font-family: 'Roboto';
+}
+.list-container {
+  padding-left: 0px;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  border-left: 1px solid #cbd5e1;
+  border-right: 1px solid #cbd5e1;
+  margin-top: 0px;
+}
+.table-header {
+  border-bottom: 1px solid #cbd5e1;
+  border-top: 1px solid #cbd5e1;
+  border-left: 1px solid #cbd5e1;
+  border-right: 1px solid #cbd5e1;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 0px;
+}
+
+.table-title {
+  color: #334155;
+  font-weight: 500;
+  height: 20px;
+  width: 90px;
+}
+
+.null {
+  height: 20px;
+  width: 25px;
+}
+
+@media screen and (max-width: 767px) {
+  .bottom-container {
+    flex-direction: column;
+  }
+  .main-heading {
+    font-size: 24px;
+    text-align: center;
+  }
+  .para {
+    text-align: center;
+    font-size: 17px;
+  }
+  .form-container {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .history-container {
+    width: 100%;
+  }
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+  }
+}
